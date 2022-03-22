@@ -1,0 +1,19 @@
+@font-face {
+  font-family: sahel;
+  src: url(fonts/sahel/Sahel.woff);
+}
+@font-face {
+  font-family: sahel-FD;
+  src: url(fonts/sahel/FD/Sahel-FD.woff);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sahel, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer-bg{
+    background-color: #2e3840;
+}
