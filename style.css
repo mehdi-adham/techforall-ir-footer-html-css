@@ -13,7 +13,71 @@
 }
 body {
   font-family: sahel, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  direction: rtl;
 }
-.footer-bg{
-    background-color: #2e3840;
+.footer-bg {
+  background-color: #2e3840;
+}
+
+footer {
+  color: #bebebe;
+  background-color: #2e3840;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  row-gap: 15px;
+  min-height: 520px;
+  padding: 15px;
+  padding-top: 2.5rem;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  font-family: sahel, "Open Sans", sans-serif;
+  row-gap: 2.5rem;
+}
+
+footer .about {
+  min-width: 250px;
+  max-width: 450px;
+  width: 30%;
+  display: flex;
+  gap: 15px;
+}
+footer a {
+  text-decoration: none;
+  color: #bebebe;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer h2 {
+  margin: 0;
+  padding: 0;
+  font-family: sahel, "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+}
+.nummer {
+  font-family: sahel-FD;
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  footer {
+    text-align: center;
+  }
+  footer .about {
+    text-align: right;
+    width: 100%;
+  }
+
 }
